@@ -1,8 +1,8 @@
-name: "Release APK Publisher"
+name: "Build Android release APK when create new tag"
 branding:
   icon: "package"
   color: "red"
-description: "Build & Publish Release APK on Github"
+description: "Build Android release APK and upload as a github release match the created new tag"
 author: "kyze8439690"
 inputs:
   GITHUB_TOKEN:
